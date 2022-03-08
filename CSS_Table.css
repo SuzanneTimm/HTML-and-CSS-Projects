@@ -1,0 +1,4 @@
+tr th {background-color: yellow;}
+tr td {font-color: green;}
+td:hover {background-color: blue; color: yellow;}
+table {border: 5px solid red; border-collapse:collapse;}
