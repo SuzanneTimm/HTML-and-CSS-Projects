@@ -8,6 +8,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 .menu li {
   color: #000;
   font-size: 2em;
@@ -19,14 +20,15 @@
   padding-bottom: 20px;
   width:200px;
   border: 2px solid #9d9fa2;
-  box-shadow: 2px 2px 10px 0 rgba (90, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px 0 rgba(90, 0, 0, 0.5);
   border-radius: 12px;  
   cursor: pointer;
-  transition-property: "background";
+  transition-property: background;
   transition-duration: 0.4s;
   transition-delay: 0s;
   transition-timing-function: ease-in-out;
 }
+
 .menu li:hover {
   color: #f00;
   background-color: rgba(224, 201, 157, 0.8);
@@ -35,23 +37,25 @@
 /*=======================================================================================================
 Gallery Section Animation
 ========================================================================================================*/
+
 .photo {
   position: relative;
   line-height: 0;
   margin-bottom: 2em;
   overflow: hidden;
-  border-radius: 8px;
   padding: 1px;
-  border: 1px solid #021a40;
   background-color: rgb(145, 171, 206);
-  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+  
 }
+
 .photo-container {
   text-align: center;
   margin: 15px auto;
   width: 300px;
-  height: 169px;
+  height: 160px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
 }
+
 
 .photo-container img {
   max-width: 100%;
@@ -87,6 +91,7 @@ Photo Overlay Transisions
   border-radius: 10px;
   cursor: pointer;
 }
+
 .photo-overlay:hover {
   opacity: 1;
 }
