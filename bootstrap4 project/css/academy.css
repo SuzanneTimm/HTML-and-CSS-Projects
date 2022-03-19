@@ -4,3 +4,7 @@
   display: block;
   object-fit: cover;
 }
+
+.badge-pill {
+    margin-right:4px !important;
+}
