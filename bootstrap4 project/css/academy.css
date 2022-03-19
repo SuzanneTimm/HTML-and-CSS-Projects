@@ -1,0 +1,6 @@
+#showtimes img {
+  height: 340px;
+  width: 340px;
+  display: block;
+  object-fit: cover;
+}
